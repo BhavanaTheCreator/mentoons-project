@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 
 import Home from './pages/home/Home';
 import Cart from './pages/cart/Cart';
@@ -8,14 +8,14 @@ import NoPage from './pages/nopage/NoPage';
 import MyState from './components/context/data/myState';
 import Login from './pages/registration/Login';
 import Signup from './pages/registration/Signup';
-import ProductInfo from './pages/productinfo/Productinfo';
+import ProductInfo from './pages/productinfo/ProductInfo';
 import AddProduct from './pages/admin/page/AddProduct';
 import UpdateProduct from './pages/admin/page/UpdateProduct';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import AllProducts from './pages/allproducts/Allproducts';
-import Contact from './pages/Contact/Contact';
-import About from './pages/About/About';
+import AllProducts from './pages/allproducts/AllProducts';
+import Contact from './pages/contact/Contact';
+import About from './pages/about/About';
 
 function App() {
   return (
