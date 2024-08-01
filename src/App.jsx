@@ -22,7 +22,7 @@ function App() {
     <MyState>
       <Router>
         <Routes>
-          <Route path="/mentoons-project/" element={<Navigate to="/home" />} />
+          <Route path="/mentoons-project/" element={<Navigate to="/mentoons-project/home" />} />
           <Route path="/mentoons-project/home" element={<Home />} />
           <Route path="/mentoons-project/allproducts" element={<AllProducts />} />
           <Route path="/mentoons-project/contact" element={<Contact />} />
