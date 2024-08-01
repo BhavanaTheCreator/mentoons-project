@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mentoons-project/static/css/main.f39140d6.css",
-    "main.js": "/mentoons-project/static/js/main.20faddcf.js",
+    "main.js": "/mentoons-project/static/js/main.cc0d1e3a.js",
     "static/js/787.be9f7cdd.chunk.js": "/mentoons-project/static/js/787.be9f7cdd.chunk.js",
     "static/media/posterd.png": "/mentoons-project/static/media/posterd.ebc23c1eccfb04c3892b.png",
     "static/media/posterc.png": "/mentoons-project/static/media/posterc.e8ed40a7d6df9a69ae10.png",
@@ -33,11 +33,11 @@
     "static/media/podcasts.jpg": "/mentoons-project/static/media/podcasts.23ff6453acd4061e0aac.jpg",
     "index.html": "/mentoons-project/index.html",
     "main.f39140d6.css.map": "/mentoons-project/static/css/main.f39140d6.css.map",
-    "main.20faddcf.js.map": "/mentoons-project/static/js/main.20faddcf.js.map",
+    "main.cc0d1e3a.js.map": "/mentoons-project/static/js/main.cc0d1e3a.js.map",
     "787.be9f7cdd.chunk.js.map": "/mentoons-project/static/js/787.be9f7cdd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f39140d6.css",
-    "static/js/main.20faddcf.js"
+    "static/js/main.cc0d1e3a.js"
   ]
 }
