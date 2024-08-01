@@ -22,37 +22,37 @@ function App() {
     <MyState>
       <Router>
         <Routes>
-          <Route path="/" element={<Navigate to="/home" />} />
-          <Route path="/home" element={<Home />} />
-          <Route path="/allproducts" element={<AllProducts />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/order" element={
+          <Route path="/mentoons-project/" element={<Navigate to="/home" />} />
+          <Route path="/mentoons-project/home" element={<Home />} />
+          <Route path="/mentoons-project/allproducts" element={<AllProducts />} />
+          <Route path="/mentoons-project/contact" element={<Contact />} />
+          <Route path="/mentoons-project/about" element={<About />} />
+          <Route path="/mentoons-project/order" element={
             <ProtectedRoute>
               <Login />
             </ProtectedRoute>
           } />
-          <Route path="/cart" element={<Cart />} />
-          <Route path="/admin" element={
+          <Route path="/mentoons-project/cart" element={<Cart />} />
+          <Route path="/mentoons-project/admin" element={
             <ProtectedRouteForAdmin>
               <Dashboard />
             </ProtectedRouteForAdmin>
           } />
-          <Route path='/dashboard' element={<Dashboard />} />
-          <Route path='/login' element={<Login />} />
-          <Route path='/signup' element={<Signup />} />
-          <Route path='/productinfo/:id' element={<ProductInfo />} />
-          <Route path='/addproduct' element={
+          <Route path='/mentoons-project/dashboard' element={<Dashboard />} />
+          <Route path='/mentoons-project/login' element={<Login />} />
+          <Route path='/mentoons-project/signup' element={<Signup />} />
+          <Route path='/mentoons-project/productinfo/:id' element={<ProductInfo />} />
+          <Route path='/mentoons-project/addproduct' element={
             <ProtectedRouteForAdmin>
               <AddProduct />
             </ProtectedRouteForAdmin>
           } />
-          <Route path='/updateproduct' element={
+          <Route path='/mentoons-project/updateproduct' element={
             <ProtectedRouteForAdmin>
               <UpdateProduct />
             </ProtectedRouteForAdmin>
           } />
-          <Route path="/*" element={<NoPage />} />
+          <Route path="/mentoons-project/*" element={<NoPage />} />
         </Routes>
         <ToastContainer />
       </Router>
@@ -65,7 +65,7 @@ export const ProtectedRoute = ({ children }) => {
   if (user) {
     return children;
   } else {
-    return <Navigate to="/login" />;
+    return <Navigate to="/mentoons-project/login" />;
   }
 };
 
@@ -74,7 +74,7 @@ const ProtectedRouteForAdmin = ({ children }) => {
   if (user && user.email === 'bhavnamishra.jbp@gmail.com') {
     return children;
   } else {
-    return <Navigate to="/login" />;
+    return <Navigate to="/mentoons-project/login" />;
   }
 };
 
